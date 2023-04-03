@@ -10,4 +10,5 @@ npx create-react-app@latest my-app
 2. npx create-react-app@latest my-app -> npx create-react-app my-app --template typescript
 --- https://create-react-app.dev/docs/adding-typescript/
 
-3.
+3. Eslint
+--- https://levelup.gitconnected.com/full-guide-add-eslint-to-react-typescript-project-406618192b9
