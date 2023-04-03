@@ -1,0 +1,13 @@
+1. Error when you have react app 5.0.0 and needed 5.0.1
+
+npm uninstall -g create-react-app
+npx clear-npx-cache
+npm i create-react-app
+npx create-react-app@latest my-app
+
+--- https://stackoverflow.com/questions/71852370/you-are-running-create-react-app-5-0-0-which-is-behind-the-latest-release-5
+
+2. npx create-react-app@latest my-app -> npx create-react-app my-app --template typescript
+--- https://create-react-app.dev/docs/adding-typescript/
+
+3.
