@@ -1,0 +1,2 @@
+export const SAGA_REQUEST = 'SAGA_REQUEST'
+export const SAGA_SUCCESS = 'SAGA_SUCCESS'
