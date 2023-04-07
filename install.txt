@@ -12,3 +12,25 @@ npx create-react-app@latest my-app
 
 3. Eslint
 --- https://levelup.gitconnected.com/full-guide-add-eslint-to-react-typescript-project-406618192b9
+
+4. Router Dom
+--- npm install react-router-dom
+
+5. Redux
+--- npm install redux
+--- npm install react-redux (which is used to connect redux to react)
+
+6. Redux Thunk
+--- npm install redux-thunk
+--- Typescript - 
+--- https://codesandbox.io/s/redux-thunk-typescript-y4bec?file=/src/Counter/index.tsx:257-316
+
+7. Redux Saga
+--- npm install redux-saga
+--- redux react-redux redux-saga @types/react-redux @types/redux-saga
+---- Typescript - 
+--- https://medium.com/edonec/implement-redux-saga-in-your-react-typescript-project-1d79c4a2d726
+--- https://levelup.gitconnected.com/react-native-redux-implementing-redux-saga-for-an-asynchronous-flow-90a0e9d7d8e8
+
+8. Redux Saga Typescript - Generator Functions Typescript
+--- https://stackoverflow.com/questions/66893967/typing-generator-functions-in-redux-saga-with-typescript
