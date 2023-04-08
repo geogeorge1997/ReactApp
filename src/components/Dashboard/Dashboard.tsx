@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 
 import { SAGA_REQUEST } from '../../redux/sagaEg/SagaEgActionTypes'
-export default function Dashboard (): JSX.Element {
-  const dispatch = useDispatch()
+
+function setSaga (dispatch: any): void {
   dispatch({
     type: SAGA_REQUEST
   })
+}
 
-  console.log('Dashboard Component')
+export default function Dashboard (): JSX.Element {
+  const dispatch = useDispatch()
+  useEffect(() => {
+    setSaga(dispatch)
+  }, [])
 
   return (
     <><div>
