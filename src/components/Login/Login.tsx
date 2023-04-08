@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-misused-promises */
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { setLogin } from '../../redux/index'
